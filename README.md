@@ -1,19 +1,20 @@
-# MolGAN
-Pytorch implementation of MolGAN: An implicit generative model for small molecular graphs (https://arxiv.org/abs/1805.11973)  
-This library refers to the following two source code.
+# Quantum GAN with Hybrid Generator (QGANN-HG)
+PennyLane and Pytorch implementation of QGAN-HG: Quantum generative models for small molecule drug discovery, based on MolGAN (https://arxiv.org/abs/1805.11973)  
+This library refers to the following source code.
+* [yongqyu/MolGAN-pytorch](https://github.com/yongqyu/MolGAN-pytorch)
 * [nicola-decao/MolGAN](https://github.com/nicola-decao/MolGAN)
 * [yunjey/StarGAN](https://github.com/yunjey/StarGAN)
 
 ## Dependencies
 
 * **python>=3.5**
-* **pytroch>=0.4.1**: https://pytorch.org
+* **pytorch>=0.4.1**: https://pytorch.org
 * **rdkit**: https://www.rdkit.org
-* **numpy**
+* **pennylane**
 
 ## Structure
-* [data](https://github.com/yongqyu/MolGAN-pytroch/tree/master/data): should contain your datasets. If you run `download_dataset.sh` the script will download the dataset used for the paper (then you should run `data/sparse_molecular_dataset.py` to conver the dataset in a graph format used by MolGAN models).
-* [models](https://github.com/yongqyu/MolGAN-pytorch/blob/master/models.py): Class for Models.
+* [data](https://github.com/jundeli/quantum-gan/data): should contain your datasets. If you run `download_dataset.sh` the script will download the dataset used for the paper (then you should run `data/sparse_molecular_dataset.py` to conver the dataset in a graph format used by MolGAN models).
+* [models](https://github.com/jundeli/quantum-gan/models.py): Class for Models.
 
 ## Usage
 ```
