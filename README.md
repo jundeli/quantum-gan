@@ -40,5 +40,3 @@ BibTeX format:
 }
 
 ```
-
-Work In Progress.
