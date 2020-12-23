@@ -1,4 +1,4 @@
-# Quantum GAN with Hybrid Generator (QGAN-HG)
+# Quantum GAN with Hybrid Generator
 PennyLane and Pytorch implementation of QGAN-HG: Quantum generative models for small molecule drug discovery, based on MolGAN (https://arxiv.org/abs/1805.11973)  
 This library refers to the following source code.
 * [yongqyu/MolGAN-pytorch](https://github.com/yongqyu/MolGAN-pytorch)
