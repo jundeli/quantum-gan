@@ -26,7 +26,7 @@ python main.py
 BibTeX format:
 ```
 @misc{jundeli2020,
-  author = {Li, Junde},
+  author = {Li, Junde and Ghosh, Swaroop},
   title = {Quantum-GAN},
   year = {2020},
   publisher = {GitHub},
