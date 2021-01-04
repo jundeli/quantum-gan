@@ -22,21 +22,16 @@ python main.py
 ```
 
 ## Citation
-```
-[1] De Cao, N., and Kipf, T. (2018).MolGAN: An implicit generative
-model for small molecular graphs. ICML 2018 workshop on Theoretical
-Foundations and Applications of Deep Generative Models.
-```
 
 BibTeX format:
 ```
-@article{de2018molgan,
-  title={{MolGAN: An implicit generative model for small
-  molecular graphs}},
-  author={De Cao, Nicola and Kipf, Thomas},
-  journal={ICML 2018 workshop on Theoretical Foundations
-  and Applications of Deep Generative Models},
-  year={2018}
+@misc{jundeli2020,
+  author = {Li, Junde},
+  title = {Quantum-GAN},
+  year = {2020},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/jundeli/quantum-gan}}
 }
 
 ```
