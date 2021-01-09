@@ -23,7 +23,8 @@ python main.py
 
 ## Citation
 ```
-[1] J. Li, R. Topaloglu, and S. Ghosh. (2021). Quantum Generative Models for Small Molecule Drug Discovery. arXiv preprint arXiv:submit/355091, 2021.
+[1] J. Li, R. Topaloglu, and S. Ghosh. (2021). Quantum Generative Models for 
+Small Molecule Drug Discovery. arXiv preprint arXiv:submit/355091, 2021.
 ```
 
 
