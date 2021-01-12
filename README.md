@@ -22,16 +22,23 @@ For details see [Quantum Generative Models for Small Molecule Drug Discovery](ht
 * [data](https://github.com/jundeli/quantum-gan/data): should contain your datasets. If you run `download_dataset.sh` the script will download the dataset used for the paper (then you should run `data/sparse_molecular_dataset.py` to conver the dataset in a graph format used by MolGAN models).
 * [models](https://github.com/jundeli/quantum-gan/models.py): Class for Models.
 
-## Usage
+## Training
 ```
 python main.py --quantum True --layer 2 --qubits 10 --complexity 'hr'
 ```
 If you want to run classical MolGAN, please set quantum argument to False. But you can still train reduced models by setting complexity to 'hr'-highly reduced (around 2% of original generator papameters), 'mr'-moderately reduced (around 15%), or 'nr'-no reduce. Layer and qubits can adjust expressive power of variational quantum circuit.
 
 ```
-python p2_qgan_hg_15p.py
+qgan-hg-demo.ipynb 
 ```
-Run 'p2_qgan_hg_15p.py' or 'p4_qgan_hg_15p.py', if you want to implement patched quantum GAN with hybrid generator for 2 patches and 4 patches, respectively.
+See this demo file for generated small molecules. Inference can be done on either PennyLane siulator or real IBM quantum computers.
+
+
+## Inference
+```
+python main.py --quantum True --layer 2 --qubits 10 --complexity 'hr'
+```
+
 
 ## Citation
 ```
