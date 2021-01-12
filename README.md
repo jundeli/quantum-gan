@@ -11,6 +11,7 @@ This library refers to the following source code.
 * **pytorch>=0.4.1**: https://pytorch.org
 * **rdkit**: https://www.rdkit.org
 * **pennylane**
+* **tensorflow==1.15**
 
 ## Structure
 * [data](https://github.com/jundeli/quantum-gan/data): should contain your datasets. If you run `download_dataset.sh` the script will download the dataset used for the paper (then you should run `data/sparse_molecular_dataset.py` to conver the dataset in a graph format used by MolGAN models).
