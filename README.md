@@ -31,7 +31,7 @@ If you want to run classical MolGAN, please set quantum argument to False. But y
 ```
 python p2_qgan_hg_15p.py
 ```
-Run 'p2_qgan_hg_15p.py' or 'p4_qgan_hg_15p.py', if you want to implement patched quantum GAN with hybrid generator.
+Run 'p2_qgan_hg_15p.py' or 'p4_qgan_hg_15p.py', if you want to implement patched quantum GAN with hybrid generator for 2 patches and 4 patches, respectively.
 
 ## Citation
 ```
