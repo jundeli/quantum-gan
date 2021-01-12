@@ -26,6 +26,12 @@ For details see [Quantum Generative Models for Small Molecule Drug Discovery](ht
 ```
 python main.py --quantum True --layer 2 --qubits 10 --complexity 'hr'
 ```
+If you want to run classical MolGAN, please set quantum argument to False. But you can still train reduced models by setting complexity to 'hr'-highly reduced (around 2% of original generator papameters), 'mr'-moderately reduced (around 15%), or 'nr'-no reduce. Layer and qubits can adjust expressive power of variational quantum circuit.
+
+```
+python p2_qgan_hg_15p.py
+```
+Run 'p2_qgan_hg_15p.py' or 'p4_qgan_hg_15p.py', if you want to implement patched quantum GAN with hybrid generator.
 
 ## Citation
 ```
