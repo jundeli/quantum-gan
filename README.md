@@ -26,19 +26,26 @@ python main.py --quantum True --layer 2 --qubits 10 --complexity 'hr'
 ## Citation
 ```
 [1] J. Li, R. Topaloglu, and S. Ghosh. (2021). Quantum Generative Models for 
-Small Molecule Drug Discovery. arXiv preprint arXiv:submit/355091, 2021.
+Small Molecule Drug Discovery. arXiv preprint 2101.03438, 2021.
 ```
 
 
 BibTeX format:
 ```
-@misc{jundeli2020,
-  author = {Li, Junde and Ghosh, Swaroop},
-  title = {Quantum-GAN},
-  year = {2020},
-  publisher = {GitHub},
-  journal = {GitHub repository},
-  howpublished = {\url{https://github.com/jundeli/quantum-gan}}
+@ARTICLE{2021arXiv210103438L,
+       author = {{Li}, Junde and {Topaloglu}, Rasit and {Ghosh}, Swaroop},
+        title = "{Quantum Generative Models for Small Molecule Drug Discovery}",
+      journal = {arXiv e-prints},
+     keywords = {Computer Science - Emerging Technologies, Computer Science - Machine Learning, Quantum Physics},
+         year = 2021,
+        month = jan,
+          eid = {arXiv:2101.03438},
+        pages = {arXiv:2101.03438},
+archivePrefix = {arXiv},
+       eprint = {2101.03438},
+ primaryClass = {cs.ET},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2021arXiv210103438L},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
 
 ```
