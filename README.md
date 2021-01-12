@@ -20,7 +20,7 @@ This library refers to the following source code.
 
 ## Usage
 ```
-python main.py
+python main.py --quantum True --layer 2 --qubits 10 --complexity 'hr'
 ```
 
 ## Citation
