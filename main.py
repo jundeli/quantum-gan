@@ -58,7 +58,7 @@ def main(config):
     # Learning rate cache for decaying.
     g_lr = self.g_lr
     d_lr = self.d_lr
-    if config.quantum == True:
+    if config.quantum:
         gen_weights = torch.tensor(list(np.random.rand(config.layer*(config.qubits*2-1))*2*np.pi-np.pi), requires_grad=True)
         self.g_optimizer = torch.optim.Adam(list(self.G.parameters())+list(self.V.parameters())+[gen_weights],
                                     self.g_lr, [self.beta1, self.beta2])
@@ -84,7 +84,7 @@ def main(config):
         a_tensor = self.label2onehot(a, self.b_dim)
         x_tensor = self.label2onehot(x, self.m_dim)
         
-        if config.quantum == True:
+        if config.quantum:
             sample_list = [gen_circuit(gen_weights) for i in range(self.batch_size)]
             z = torch.stack(tuple(sample_list)).to(self.device).float()
         else:
