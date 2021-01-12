@@ -29,9 +29,9 @@ python main.py --quantum True --layer 2 --qubits 10 --complexity 'hr'
 If you want to run classical MolGAN, please set quantum argument to False. But you can still train reduced models by setting complexity to 'hr'-highly reduced (around 2% of original generator papameters), 'mr'-moderately reduced (around 15%), or 'nr'-no reduce. Layer and qubits can adjust expressive power of variational quantum circuit.
 
 ```
-python p2_qgan_hg_15p.py
+python p2_qgan_hg.py
 ```
-Run p2_qgan_hg_15p.py or p4_qgan_hg_15p.py for implementing patched quantum GAN with hybrid generator for 2 pathes and 4 patches, respectively.
+Run 'p2_qgan_hg'.py or 'p4_qgan_hg.py' for implementing patched quantum GAN with hybrid generator for 2 pathes and 4 patches, respectively.
 
 
 ## Inference
