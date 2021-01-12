@@ -25,7 +25,7 @@ python main.py --quantum True --layer 2 --qubits 10 --complexity 'hr'
 
 ## Citation
 ```
-[1] J. Li, R. Topaloglu, and S. Ghosh. (2021). Quantum Generative Models for 
+[1] J. Li, R. Topaloglu, and S. Ghosh. Quantum Generative Models for 
 Small Molecule Drug Discovery. arXiv preprint 2101.03438, 2021.
 ```
 
