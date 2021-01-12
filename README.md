@@ -5,6 +5,10 @@ This library refers to the following source code.
 * [nicola-decao/MolGAN](https://github.com/nicola-decao/MolGAN)
 * [yunjey/StarGAN](https://github.com/yunjey/StarGAN)
 
+
+For details see [Quantum Generative Models for Small Molecule Drug Discovery](https://arxiv.org/abs/2101.03438) by Junde Li, Rasit Topaloglu, and Swaroop Ghosh.
+
+
 ## Dependencies
 
 * **python>=3.5**
