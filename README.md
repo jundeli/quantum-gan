@@ -29,15 +29,16 @@ python main.py --quantum True --layer 2 --qubits 10 --complexity 'hr'
 If you want to run classical MolGAN, please set quantum argument to False. But you can still train reduced models by setting complexity to 'hr'-highly reduced (around 2% of original generator papameters), 'mr'-moderately reduced (around 15%), or 'nr'-no reduce. Layer and qubits can adjust expressive power of variational quantum circuit.
 
 ```
-qgan-hg-demo.ipynb 
+python p2_qgan_hg_15p.py
 ```
-See this demo file for generated small molecules. Inference can be done on either PennyLane siulator or real IBM quantum computers.
+Run p2_qgan_hg_15p.py or p4_qgan_hg_15p.py for implementing patched quantum GAN with hybrid generator for 2 pathes and 4 patches, respectively.
 
 
 ## Inference
 ```
-python main.py --quantum True --layer 2 --qubits 10 --complexity 'hr'
+qgan-hg-demo.ipynb 
 ```
+See this demo file for generated small molecules. Inference can be done on either PennyLane siulator or real IBM quantum computers.
 
 
 ## Citation
