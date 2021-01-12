@@ -38,7 +38,7 @@ Run 'p2_qgan_hg'.py or 'p4_qgan_hg.py' for implementing patched quantum GAN with
 ```
 qgan-hg-demo.ipynb 
 ```
-See this demo file for generated small molecules. Inference can be done on either PennyLane siulator or real IBM quantum computers.
+See this demo file for generating small molecules. Inference can be done on either PennyLane quantum simulator or real IBM quantum computers.
 
 
 ## Citation
