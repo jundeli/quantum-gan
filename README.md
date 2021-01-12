@@ -34,11 +34,12 @@ python p2_qgan_hg.py
 Run 'p2_qgan_hg'.py or 'p4_qgan_hg.py' for implementing patched quantum GAN with hybrid generator for 2 pathes and 4 patches, respectively.
 
 
-## Inference
+## Demo
+You can see generated small molecules with pretrined models which are included in qgan-hg/models. Quantum circuit parameters are shown in gen_weights.csv. Inference can be done on either PennyLane quantum simulator or real IBM quantum computers.
+
 ```
 qgan-hg-demo.ipynb 
 ```
-See this demo file for generating small molecules. Inference can be done on either PennyLane quantum simulator or real IBM quantum computers.
 
 
 ## Citation
