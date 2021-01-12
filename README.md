@@ -40,7 +40,11 @@ You can see generated small molecules with pretrined models which are included i
 ```
 qgan-hg-demo.ipynb 
 ```
+Below are some generated molecules:
 
+<div style="color:#0000FF" align="center">
+<img src="molecules/mol1.png" width="430"/> <img src="molecules/mol2.png" width="430"/>
+</div>
 
 ## Citation
 ```
