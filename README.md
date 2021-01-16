@@ -49,13 +49,6 @@ Below are some generated molecules:
 
 ## Citation
 ```
-[1] J. Li, R. Topaloglu, and S. Ghosh. Quantum Generative Models for 
-Small Molecule Drug Discovery. arXiv preprint 2101.03438, 2021.
-```
-
-
-BibTeX format:
-```
 @ARTICLE{2021arXiv210103438L,
        author = {{Li}, Junde and {Topaloglu}, Rasit and {Ghosh}, Swaroop},
         title = "{Quantum Generative Models for Small Molecule Drug Discovery}",
